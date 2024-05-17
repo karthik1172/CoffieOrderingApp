@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB14A8EC2BF7196D0040D2C5 /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14A8EB2BF7196D0040D2C5 /* AddCoffeeOrderView.swift */; };
+		BB14A8EE2BF719AD0040D2C5 /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14A8ED2BF719AD0040D2C5 /* OrderTotalView.swift */; };
+		BB14A8F02BF719F50040D2C5 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14A8EF2BF719F50040D2C5 /* AddCoffeeOrderViewModel.swift */; };
+		BB14A8F22BF71A110040D2C5 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14A8F12BF71A110040D2C5 /* CoffeeViewModel.swift */; };
+		BB14A8F42BF71A580040D2C5 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14A8F32BF71A580040D2C5 /* CreateOrderResponse.swift */; };
+		BBCB08B72BF33BC20053903E /* CoffieOrderingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB08B62BF33BC20053903E /* CoffieOrderingApp.swift */; };
+		BBCB08B92BF33BC20053903E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB08B82BF33BC20053903E /* ContentView.swift */; };
+		BBCB08BB2BF33BC30053903E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCB08BA2BF33BC30053903E /* Assets.xcassets */; };
+		BBCB08BE2BF33BC30053903E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCB08BD2BF33BC30053903E /* Preview Assets.xcassets */; };
+		BBCB08C62BF33E5C0053903E /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB08C52BF33E5C0053903E /* Coffee.swift */; };
+		BBCB08C82BF33F160053903E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB08C72BF33F160053903E /* Order.swift */; };
+		BBCB08CB2BF343700053903E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB08CA2BF343700053903E /* Webservice.swift */; };
+		BBCB08CE2BF355450053903E /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB08CD2BF355450053903E /* OrderListViewModel.swift */; };
+		BBCB08D32BF3B2690053903E /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB08D22BF3B2690053903E /* OrderListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB14A8EB2BF7196D0040D2C5 /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		BB14A8ED2BF719AD0040D2C5 /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
+		BB14A8EF2BF719F50040D2C5 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		BB14A8F12BF71A110040D2C5 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		BB14A8F32BF71A580040D2C5 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		BBCB08B32BF33BC20053903E /* CoffieOrderingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffieOrderingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCB08B62BF33BC20053903E /* CoffieOrderingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffieOrderingApp.swift; sourceTree = "<group>"; };
+		BBCB08B82BF33BC20053903E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBCB08BA2BF33BC30053903E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBCB08BD2BF33BC30053903E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBCB08C52BF33E5C0053903E /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		BBCB08C72BF33F160053903E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		BBCB08CA2BF343700053903E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		BBCB08CD2BF355450053903E /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		BBCB08D22BF3B2690053903E /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		BBCB08D42BF3D5380053903E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBCB08B02BF33BC20053903E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBCB08AA2BF33BC20053903E = {
+			isa = PBXGroup;
+			children = (
+				BBCB08B52BF33BC20053903E /* CoffieOrderingApp */,
+				BBCB08B42BF33BC20053903E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBCB08B42BF33BC20053903E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB08B32BF33BC20053903E /* CoffieOrderingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBCB08B52BF33BC20053903E /* CoffieOrderingApp */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB08CF2BF3B21C0053903E /* Views */,
+				BBCB08CC2BF355320053903E /* ViewModel */,
+				BBCB08C92BF3435E0053903E /* Services */,
+				BBCB08C42BF33E520053903E /* Models */,
+				BBCB08B62BF33BC20053903E /* CoffieOrderingApp.swift */,
+				BBCB08BA2BF33BC30053903E /* Assets.xcassets */,
+				BBCB08D42BF3D5380053903E /* Info.plist */,
+				BBCB08BC2BF33BC30053903E /* Preview Content */,
+			);
+			path = CoffieOrderingApp;
+			sourceTree = "<group>";
+		};
+		BBCB08BC2BF33BC30053903E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB08BD2BF33BC30053903E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBCB08C42BF33E520053903E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB08C52BF33E5C0053903E /* Coffee.swift */,
+				BBCB08C72BF33F160053903E /* Order.swift */,
+				BB14A8F32BF71A580040D2C5 /* CreateOrderResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BBCB08C92BF3435E0053903E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB08CA2BF343700053903E /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BBCB08CC2BF355320053903E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB08CD2BF355450053903E /* OrderListViewModel.swift */,
+				BB14A8EF2BF719F50040D2C5 /* AddCoffeeOrderViewModel.swift */,
+				BB14A8F12BF71A110040D2C5 /* CoffeeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BBCB08CF2BF3B21C0053903E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB08B82BF33BC20053903E /* ContentView.swift */,
+				BBCB08D22BF3B2690053903E /* OrderListView.swift */,
+				BB14A8EB2BF7196D0040D2C5 /* AddCoffeeOrderView.swift */,
+				BB14A8ED2BF719AD0040D2C5 /* OrderTotalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBCB08B22BF33BC20053903E /* CoffieOrderingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCB08C12BF33BC30053903E /* Build configuration list for PBXNativeTarget "CoffieOrderingApp" */;
+			buildPhases = (
+				BBCB08AF2BF33BC20053903E /* Sources */,
+				BBCB08B02BF33BC20053903E /* Frameworks */,
+				BBCB08B12BF33BC20053903E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffieOrderingApp;
+			productName = CoffieOrderingApp;
+			productReference = BBCB08B32BF33BC20053903E /* CoffieOrderingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBCB08AB2BF33BC20053903E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BBCB08B22BF33BC20053903E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = BBCB08AE2BF33BC20053903E /* Build configuration list for PBXProject "CoffieOrderingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBCB08AA2BF33BC20053903E;
+			productRefGroup = BBCB08B42BF33BC20053903E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBCB08B22BF33BC20053903E /* CoffieOrderingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBCB08B12BF33BC20053903E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCB08BE2BF33BC30053903E /* Preview Assets.xcassets in Resources */,
+				BBCB08BB2BF33BC30053903E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCB08AF2BF33BC20053903E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCB08B92BF33BC20053903E /* ContentView.swift in Sources */,
+				BBCB08CB2BF343700053903E /* Webservice.swift in Sources */,
+				BBCB08C62BF33E5C0053903E /* Coffee.swift in Sources */,
+				BB14A8EC2BF7196D0040D2C5 /* AddCoffeeOrderView.swift in Sources */,
+				BBCB08D32BF3B2690053903E /* OrderListView.swift in Sources */,
+				BB14A8F22BF71A110040D2C5 /* CoffeeViewModel.swift in Sources */,
+				BBCB08CE2BF355450053903E /* OrderListViewModel.swift in Sources */,
+				BBCB08C82BF33F160053903E /* Order.swift in Sources */,
+				BB14A8EE2BF719AD0040D2C5 /* OrderTotalView.swift in Sources */,
+				BBCB08B72BF33BC20053903E /* CoffieOrderingApp.swift in Sources */,
+				BB14A8F02BF719F50040D2C5 /* AddCoffeeOrderViewModel.swift in Sources */,
+				BB14A8F42BF71A580040D2C5 /* CreateOrderResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBCB08BF2BF33BC30053903E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBCB08C02BF33BC30053903E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBCB08C22BF33BC30053903E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffieOrderingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 57U4VWL7LG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffieOrderingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.CoffieOrderingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBCB08C32BF33BC30053903E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffieOrderingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 57U4VWL7LG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffieOrderingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.CoffieOrderingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBCB08AE2BF33BC20053903E /* Build configuration list for PBXProject "CoffieOrderingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCB08BF2BF33BC30053903E /* Debug */,
+				BBCB08C02BF33BC30053903E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCB08C12BF33BC30053903E /* Build configuration list for PBXNativeTarget "CoffieOrderingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCB08C22BF33BC30053903E /* Debug */,
+				BBCB08C32BF33BC30053903E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBCB08AB2BF33BC20053903E /* Project object */;
+}
